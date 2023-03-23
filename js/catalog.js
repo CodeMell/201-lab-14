@@ -26,7 +26,7 @@ function populateForm() {
 function handleSubmit(event) {
 
   // TODO: Prevent the page from reloading
-
+  history.pushState(product)
   // Do all the things ...
   addSelectedItemToCart();
   state.cart.saveToLocalStorage();

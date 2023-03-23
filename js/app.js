@@ -14,14 +14,14 @@ const Cart = function(items) {
 
 Cart.prototype.addItem = function(product, quantity) {
   // TODO: Fill in this instance method to create a new CartItem and add it to this.items
-
+  
 };
 
 Cart.prototype.saveToLocalStorage = function() {
   // TODO: Fill in this instance method to save the contents of the cart to localStorage
-  let stringify = JSON.stringify();
-  localStorage.setItem();
-  console.log()
+  let stringify = JSON.stringify(CartItem.items);
+  localStorage.setItem("InCart",stringify);
+  console.log(stringify)
 };
 
 Cart.prototype.removeItem = function(item) {
