@@ -38,11 +38,11 @@ function handleSubmit(event) {
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
   // TODO: suss out the item picked from the select list
+  // TODO: get the quantity
+  // TODO: using those, add one item to the Cart
   if(product){
 
   }
-  // TODO: get the quantity
-  // TODO: using those, add one item to the Cart
 }
 
 // TODO: As you add items into the cart, show them (item & quantity) in the cart preview div
