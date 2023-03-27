@@ -43,9 +43,9 @@ function showCart() {
     delButton.addEventListener('click', function(){
       let Irow = document.getElementById(i);
         Irow.remove();
-        state.cart.items.items.splice(i, 1);
-      //   state.cart.saveToLocalStorage();
-      // console.log(state.cart)
+        // state.cart.items.items.splice(i, 1);
+        // update localstorage
+        state.cart.removeItem();
       });
     DelproductTD.append(delButton);
     trData.append(DelproductTD);
