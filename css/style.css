@@ -1,1 +1,8 @@
-/* TODO: Make it awesome */
+body{
+    font-family: cursive;
+    font-size: 150%;
+    background-image: url(PondWithLilyPads.webp);
+    color: rgb(101, 33, 157);
+    background-color: rgb(180, 255, 255);
+    border: 2px dotted blue;
+}
