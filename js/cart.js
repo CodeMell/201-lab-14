@@ -37,7 +37,7 @@ function showCart() {
     // TODO: Create a TR
     let DelproductTD = document.createElement('td');
     // TODO: Create a TD for the delete link, quantity,  and the item
-    DelproductTD.innerHTML = "X";
+    DelproductTD.innerHTML = "<button>X</button>";
     trData.append(DelproductTD);
 
     // TODO: Iterate over the items in the cart
