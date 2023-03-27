@@ -9,8 +9,7 @@ body{
     border: 2px dotted blue;
 }
 
-.animate-charcter
-{
+head {
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
